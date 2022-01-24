@@ -15,15 +15,11 @@ yarn install
 ```shell
 yarn start
 ```
-Open the browser and navigate to: [http://localhost:3000/signup](http://localhost:3000)
+Open the browser and navigate to: [http://localhost:3000](http://localhost:3000)
 and start editing the template located in `src/templates/EmailBuilder`
 
 ## Generate the HTML from React
-First build the Typescript project:
-```shell
-yarn tsc --project tsconfig.build.json
-```
 Run the code to generate the HTML
 ```shell
-node dist/generateEmail.js
+yarn generate
 ```
